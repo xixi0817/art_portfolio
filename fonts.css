@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'molotregular';
+    src: url('fonts/Molot-webfont.eot');
+    src: url('fonts/Molot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Molot-webfont.woff2') format('woff2'),
+         url('fonts/Molot-webfont.woff') format('woff'),
+         url('fonts/Molot-webfont.ttf') format('truetype'),
+         url('fonts/Molot-webfont.svg#molotregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'metroregular';
+    src: url('fonts/Metro-webfont.eot');
+    src: url('fonts/Metro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Metro-webfont.woff2') format('woff2'),
+         url('fonts/Metro-webfont.woff') format('woff'),
+         url('fonts/Metro-webfont.ttf') format('truetype'),
+         url('fonts/Metro-webfont.svg#metroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '2dumbregular';
+    src: url('fonts/2Dumb-webfont.eot');
+    src: url('fonts/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/2Dumb-webfont.woff2') format('woff2'),
+         url('fonts/2Dumb-webfont.woff') format('woff'),
+         url('fonts/2Dumb-webfont.ttf') format('truetype'),
+         url('fonts/2Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '3dumbregular';
+    src: url('fonts/3Dumb-webfont.eot');
+    src: url('fonts/3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/3Dumb-webfont.woff2') format('woff2'),
+         url('fonts/3Dumb-webfont.woff') format('woff'),
+         url('fonts/3Dumb-webfont.ttf') format('truetype'),
+         url('fonts/3Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: '1942regular';
+    src: url('fonts/1942-webfont.eot');
+    src: url('fonts/1942-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/1942-webfont.woff2') format('woff2'),
+         url('fonts/1fonts/942-webfont.woff') format('woff'),
+         url('fonts/1942-webfont.ttf') format('truetype'),
+         url('fonts/1942-webfont.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+/*----font-family: 'metroregular', Arial, sans-serif; ----*/

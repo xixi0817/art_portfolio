@@ -1,0 +1,772 @@
+/*--code from https://codepen.io/iamjamie/pen/wzbEXG
+// Tweaked from the original:
+// https://codepen.io/jpschwinghamer/pen/QwwbgO*/
+.snow, .winter-is-coming {
+  z-index: 100;
+  pointer-events: none;
+}
+
+.winter-is-coming {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  
+  width: 100;
+  max-width: 100%;
+  background: none;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation: falling linear infinite both;
+          animation: falling linear infinite both;
+  transform: translate3D(0, -100%, 0);
+}
+.snow--near {
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+  background-size: contain;
+}
+.snow--near + .snow--alt {
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+}
+.snow--mid {
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
+  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
+  background-size: contain;
+}
+.snow--mid + .snow--alt {
+  -webkit-animation-delay: 25s;
+          animation-delay: 25s;
+}
+.snow--far {
+  -webkit-animation-duration: 55s;
+          animation-duration: 55s;
+  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
+  background-size: contain;
+}
+.snow--far + .snow--alt {
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
+}
+
+@-webkit-keyframes falling {
+  0% {
+    transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    transform: translate3D(7.5%, 100%, 0);
+  }
+}
+
+@keyframes falling {
+  0% {
+    transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    transform: translate3D(7.5%, 100%, 0);
+  }
+}
+
+/*--code from https://codepen.io/iamjamie/pen/wzbEXG*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+  	html {
+    	height:100%;
+    	width: 100%;
+	}
+
+	body {
+	
+     display:flex;
+     align-items:center;
+     height:100%;
+	}
+	.back {
+		margin:1em auto;
+		font-family: 'Barriecito', cursive;
+	}
+	.back span {
+		font-size:3em;
+		color: lightblue;
+		background: #006994;
+		display:table-cell;
+		box-shadow:inset 0 0 5px rgba(0,0,0,0.3), 0 5px 0 #blue;
+		padding: 0 15px;
+		line-height: 100px;
+		animation:jumb 1s infinite;
+
+	}
+	@keyframes jumb {
+		0% {
+			transform:translateY(0px)
+		}
+		50% {
+			transform:translateY(-30px);
+			box-shadow:0 15px 0 rgb(59, 73, 130);
+		}
+		100% {
+			transform:translateY(0px)	
+		}
+	}
+	.back span:nth-child(1) {
+		animation-delay:0s;
+	}
+	.back span:nth-child(2) {
+		animation-delay:.1s;	
+	}
+	.back span:nth-child(3) {
+		animation-delay:.2s;
+	}
+	.back span:nth-child(4) {
+		animation-delay:.3s;	
+	}
+	.back span:nth-child(5) {
+		animation-delay:.4s;
+	}
+	.back span:nth-child(6) {
+		animation-delay:.5s;	
+	}
+	.back span:nth-child(7) {
+		animation-delay:.6s;
+	}
+
+
+/*--code from https://codepen.io/ahmedelmsery/pen/zZVLMN*/
+
+html, body{
+	background-color: #90c4d7;
+	height: 100%;/* why the website is not showing all my text? */
+	font-size: 20px;
+
+
+}
+
+
+
+.stitle{
+	color: white;
+font-family: 'Creepster', cursive;	font-weight: bold;
+	font-size: 10em; 
+	padding-top: 20%;
+	padding-bottom: 30%;
+}	
+
+.box0{
+	padding-top: 2%;
+	font-family: 'Barriecito', cursive;
+	color: white;
+ }
+
+.box0-1{
+	padding-bottom: 3%;
+	left:30vw;
+	font-size: 2.5em; 
+	position: relative;
+}
+.box0-2{
+	left:50vw;
+	font-size: 9em; 
+	position: relative;
+}
+
+.box1{
+	padding-top: 8%;
+	font-size: 5em; 
+	font-family: 'Barriecito', cursive;
+	color: white;
+}
+
+.box2{
+	font-size: 11em; 
+	font-family: 'Potta One', cursive;
+	color: white;
+	padding-top: 15%;
+	padding-bottom: 15%;
+
+}
+
+p::first-letter {
+ 	font-size: em; 
+  color: white;
+  font-family: 'Potta One', cursive;
+}
+
+.box3{
+	font-size: 2em; 
+	font-family: 'Potta One', cursive;
+	color: white;
+}
+
+.box4{
+	color: #ff6f61;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 3.5em; 
+	padding-bottom: 20%;
+	padding-top: 30%;
+	padding-bottom: 30%;
+}
+
+
+.box5{
+	font-family: 'Barriecito', cursive;
+	color:white;
+}
+
+.box5-1{
+	left:3vw;
+	font-size: 2.5em; 
+	position: relative;
+}
+.box5-2{
+	left:15vw;
+	font-size: 7em; 
+	position: relative;
+}
+
+.box5-3{
+	left:50vw;
+	font-size: 2.5em; 
+	position: relative;
+}
+
+.box5-4{
+	left:65vw;
+	font-size: 3.5em; 
+	position: relative;
+}
+
+.box5-5{
+	left:50vw;
+	font-size: 5em; 
+	position: relative;
+}
+
+.box5-6{
+	left:75vw;
+	font-size: 3.5em; 
+	position: relative;
+}
+
+.box5-7{
+	left:75vw;
+	font-size: 4.5em; 
+	position: relative;
+}
+
+.box6{
+	padding-top: 3%;
+	font-family: 'Snowburst One', cursive;
+	color: white;
+}
+
+.box6-1{
+	left:1vw;
+	font-size: 3.5em; 
+	position: relative;
+	padding-bottom: 5%;
+	font-family: 'Barriecito', cursive;
+}
+
+.box6-2{
+	left:40vw;
+	font-size: 4em; 
+	position: relative;
+	padding-bottom: 0%;
+	font-family: 'Barriecito', cursive;
+}
+.box6-3{
+	font-size: 18em; 
+	position: relative;
+	padding-bottom: 40%;
+	padding-top: 30%;
+	color: white;
+	font-family: 'Creepster', cursive;
+}
+
+.box7{
+	padding-bottom: 10%;
+	font-family: 'Creepster', cursive;
+}
+
+
+
+@-webkit-keyframes fade-in{
+    from{
+        opacity:1;
+        top:0px;
+    }
+    to{
+        opacity:0;
+        top:20px;
+    }
+}
+
+
+.box9{
+
+	font-size: 17rem;
+	display:inline;
+	position:relative;
+    top:0px;
+    -webkit-animation:fade-in 15s infinite;
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+    
+
+
+  
+}
+
+.box10{
+	font-family: 'Barriecito', cursive;
+	color: #f61;
+	font-size: 2em;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	
+}
+
+
+
+
+
+
+.box11{
+	font-family: 'Barriecito', cursive;
+	color: white;
+	font-size: 2.5em;
+	padding-top: 5%;
+}
+
+
+.box11-1{
+	font-family: 'Barriecito', cursive;
+	color: ;
+	padding-bottom: 3%;
+}
+
+
+.box11-2{
+	font-size: 7em;
+	color: #ff6f61;
+}
+
+.box11-3{
+	padding-top: 20%;
+	font-size: 1.8em;
+
+}
+
+.box12{
+font-family: 'Averia Libre', cursive;
+color: white;
+	font-size: 6em;
+	padding-top: 20%;
+	padding-bottom: 25%;
+}
+
+.box12-1{
+	color:red;
+}
+
+.box13{
+	padding-top: 15%;
+	padding-bottom: 25%;
+	background-color: #ff6f61;
+}
+
+
+/*--------------------*/
+/*Back to Top Button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 1%;
+  z-index: 99;
+  font-size: 20px;
+ font-family: 'Bungee Shade', cursive;
+  color: #ff6f61;
+  outline: none;
+  background-color: white;
+  color: pink;
+  cursor: pointer;
+  padding: 10px;
+ 
+  border-radius: 8px;
+}
+
+#myBtn:hover {
+  background-color: ;
+}
+
+.goback{
+	border-style: dotted;
+	color: pink;
+}
+
+
+
+
+/*--code from https://codepen.io/iamjamie/pen/wzbEXG
+// Tweaked from the original:
+// https://codepen.io/atnyman/pen/cgGuL/*/
+
+
+h1 {
+  background-color: rgba(256,256,256,.03);
+  background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
+  background-image: -moz-linear-gradient(top, #111, #0c0c0c);
+  background-image: -ms-linear-gradient(top, #111, #0c0c0c);
+  background-image: -o-linear-gradient(top, #111, #0c0c0c);
+  font-size: 1em;
+  font-family: 'Barriecito', cursive;
+  text-align: center;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  white-space:nowrap;
+}
+
+
+
+.fire {
+  animation: animation 1s ease-in-out infinite alternate;
+  -moz-animation: animation 1s ease-in-out infinite alternate;
+  -webkit-animation: animation 1s ease-in-out infinite alternate;
+  -o-animation: animation 1s ease-in-out infinite alternate;
+  color: #ff6f61;
+  font-family: 'Creepster', cursive;
+  font-size: 3em;
+  text-transform: lowercase;
+  vertical-align: middle;
+  letter-spacing: 0.2em;
+}
+
+.burn {
+  animation: animation .65s ease-in-out infinite alternate;
+  -moz-animation: animation .65s ease-in-out infinite alternate;
+  -webkit-animation: animation .65s ease-in-out infinite alternate;
+  -o-animation: animation .65s ease-in-out infinite alternate;
+  color: #ff6f61;
+  font-family: 'Creepster', cursive;
+  font-size: 3em;
+  text-transform: lowercase;
+  vertical-align: middle;
+  letter-spacing: 0.2em;
+}
+
+@keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-moz-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-webkit-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-o-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+
+
+
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Code Pro', monospace;
+ 
+}
+
+.cc {
+  position: relative;
+  text-transform: uppercase;
+ 
+  
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #ffffff, 
+                    #ffffff,
+                    #ffffff,
+                    #ffffff);
+  animation: .7s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+.box9{
+	text-decoration: line-through;
+	text-decoration-color:#90c4d7;
+	background-color: none;
+	color: ;
+}
+
+
+
+
+.wrap{
+
+  word-wrap: break-word;
+
+  margin:0 auto;
+
+}
+.html{
+	position:fixed;
+}
+
+/*----https://codepen.io/rauldronca/pen/ZyNQPX---*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+/* BODY */
+body {
+
+
+ 
+}
+
+::selection {
+  background: transparent;
+}
+
+/* JUMP */
+.box10 {
+  cursor: default;
+ 
+
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.box10 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.8s ease infinite alternate;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+        0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.box10 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+.box10 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+.box10 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+.box10 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+.box10 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+.box10 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+.box10 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+.box10 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+.box10 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+.box10 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+.box10 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+.box10 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+.box10 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+.box10 span:nth-child(15) {
+  -webkit-animation-delay: 0.3s;
+}
+
+.box10 span:nth-child(16) {
+  -webkit-animation-delay: 0.4s;
+}
+.box10 span:nth-child(17) {
+  -webkit-animation-delay: 0.5s;
+}
+.box10 span:nth-child(18) {
+  -webkit-animation-delay: 0.6s;
+}
+
+
+.box10 span:nth-child(19) {
+  -webkit-animation-delay: 0.7s;
+}
+
+.box10 span:nth-child(20) {
+  -webkit-animation-delay: 0.8s;
+}
+.box10 span:nth-child(21) {
+  -webkit-animation-delay: 0.3s;
+}
+
+.box10 span:nth-child(22) {
+  -webkit-animation-delay: 0.4s;
+}
+
+.box10 span:nth-child(23) {
+  -webkit-animation-delay: 0.5.s;
+}
+.box10 span:nth-child(24) {
+  -webkit-animation-delay: 0.6s;
+}
+.box10 span:nth-child(25) {
+  -webkit-animation-delay: 0.7s;
+}
+
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+
+
+
+/*----
+font-family: 'Oi', cursive;
+font-family: 'Barriecito', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Flavors', cursive; snow
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Fruktur', cursive;
+font-family: 'Hachi Maru Pop', cursive;
+font-family: 'Kirang Haerang', cursive;
+font-family: 'Mansalva', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Ruslan Display', cursive;
+font-family: 'Slackey', cursive;
+font-family: 'Snowburst One', cursive;
+---*/

@@ -1,0 +1,915 @@
+  /*https://codepen.io/premwebsitica/pen/bayjgd */
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;/* Hide scrollbars */
+   	height: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-fixed-side {
+    margin-left: -15px;
+    margin-right: -15px;
+    color: black;
+    }
+    .nav .row,.navbar-header{
+   background-color: none;/* header background */
+}
+.navsbk{
+  background-color: none  ; /* drop link bk color */
+  color:#e7355a;
+  font-family: 'Cormorant', serif;
+  font-size: 1.5em;
+}
+.name{
+  color:#ebd184;
+  font-size: 2.5em;
+  margin:0.5vh;
+  font-family: 'Black Ops One', cursive; 
+}
+.navbar-header{
+  margin-top: 0vh;
+}
+
+.page{
+  width: 100%;
+  height: 100%;
+}
+
+.sp{
+color: black;
+font-size: 0.8em;
+color: gray;
+
+}
+img.icon{
+  margin-left:3vw;}
+
+}
+
+@media (min-width: 768px) {
+.nav .row,.navbar-header{
+   background-color: none;/* header background */
+}
+.navsbk{
+  background-color: none  ; /* drop link bk color */
+  color:#e7355a;
+  font-family: 'Cormorant', serif;
+  font-size: 1.5em;
+}
+.name{
+  color:#ebd184;
+  font-size: 2.5em;
+  margin:0.5vh;
+  font-family: 'Black Ops One', cursive; 
+}
+.navbar-header{
+  margin-top: 0vh;
+}
+
+img.icon{
+ margin-left: 30px;
+}
+
+.sp{
+color: gray;
+font-size: 0.8em;
+text-align: left;
+margin-left: -10px;
+margin-right: -4vw;
+}
+
+
+  .navbar-fixed-side {
+    position: fixed;
+    margin: 0 -15px;
+    height: 100%;
+    width: auto;
+    overflow: auto;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1;
+    color: black;
+}
+
+  .navbar.navbar-default {
+    position: fixed;
+    color: black;
+}
+  .navbar-fixed-side .container,
+  .navbar-fixed-side .container-fluid {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-header {
+    float: none;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-brand {
+    height: auto;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side > .container .navbar-brand,
+  .navbar-fixed-side > .container-fluid .navbar-brand {
+    margin-left: 0;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-collapse {
+    width: 100%;
+    border-top: 1px solid white;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-nav {
+    float: none;
+    margin: 0 -15px;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-nav > li {
+    float: none;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-form {
+    margin: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    border-bottom: 1px solid white;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-text {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-left,
+  .navbar-fixed-side .navbar-right {
+    float: none !important;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: white;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    color: black;
+  }
+  .navbar-fixed-side .navbar-nav .dropdown-menu > li > a,
+  .navbar-fixed-side .navbar-nav .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-nav .dropdown-menu > li > a {
+    line-height: 2em;
+    color: black; /*works link */
+     background-color: white;
+
+  }
+  .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:hover,
+  .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:focus {
+    background-image: none;
+     background-color: white;
+     color: black;
+  }
+  .navbar-fixed-side .navbar-nav .dropdown-menu > .active > a {
+    background-color: white;
+  
+    color: black;
+  }
+  .navbar-fixed-side .navbar-nav > li > a:hover,
+  .navbar-fixed-side .navbar-nav > li > a:focus,
+  .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:hover,
+  .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:focus {
+    background-color: white;
+   
+     /*font-family: 'Cinzel Decorative', cursive;*/>
+     color: #ebd184;
+  }
+  .navbar-fixed-side .dropdown > .dropdown-toggle,
+  .navbar-fixed-side .dropdown-menu > .dropdown-header {
+    background-color: white !important;
+    color: blue !important; /*works color */
+    cursor: default;
+    font-size: 1.5em;
+   	 text-transform: uppercase;
+    border-bottom: none;
+    padding-bottom: 10px;
+  }
+  .navbar-fixed-side .dropdown-toggle .caret {
+    display: none;
+     background-color: white;
+
+  }
+  .navbar-fixed-side .dropdown-menu {
+    display: block;
+     background-color:blue;
+  }
+  .navbar-fixed-side.navbar-inverse .navbar-collapse,
+  .navbar-fixed-side.navbar-inverse .navbar-nav > li > a,
+  .navbar-fixed-side.navbar-inverse .navbar-form,
+  .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu {
+    border-color: white;
+     background-color: blue;
+  }
+  .navbar-fixed-side.navbar-inverse .divider {
+    background-color: white;
+  }
+  .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    color: blue;
+     background-color: white;
+  }
+  .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu > .active > a {
+    background-color: white;
+    color: white;
+  }
+  .navbar-fixed-side.navbar-inverse .navbar-nav > li:not(.active) > a:hover,
+  .navbar-fixed-side.navbar-inverse .navbar-nav > li:not(.active) > a:focus,
+  .navbar-fixed-side.navbar-inverse
+    .navbar-nav
+    .dropdown-menu
+    > li:not(.active)
+    > a:hover,
+  .navbar-fixed-side.navbar-inverse
+    .navbar-nav
+    .dropdown-menu
+    > li:not(.active)
+    > a:focus {
+    background-color: blue;
+    color: blue;
+  }
+  .navbar-fixed-side.navbar-inverse .dropdown > .dropdown-toggle {
+    color: white !important;
+     background-color: blue;
+     color: black;
+  }
+
+
+  
+}
+/* __________________avbar closeavbar closeavbar close_______navbar close  */
+/* _________________________navbar close  */
+/* 
+aa3425 e7355a ebd184 4a87a6 f7aec6 e4946e f06474 e34a71 97d7ea 
+font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cormorant', serif;
+  font-family: 'Kranky', cursive;kong xin de 
+  font-family: 'Londrina Sketch', cursive; kong xin de 
+  font-family: 'Nanum Myeongjo', serif; link
+  font-family: 'New Tegomin', serif;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Barrio', cursive;
+  font-family: 'Black Ops One', cursive;  name
+  font-family: 'Ceviche One', cursive;
+  font-family: 'Iceland', cursive;
+  font-family: 'Notable', sans-serif;
+  font-family: 'Orbitron', sans-serif;  name #ebd184
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Saira Stencil One', cursive;  name
+*/
+@media (max-width: 768px) {
+  .title{
+        font-family: 'New Tegomin', serif;
+       color: #ebd184;
+       font-size:3em;
+       text-align: center;
+       margin-bottom: 10vh;
+     }
+
+  .title:hover {
+    font-size: 3em;
+    color: white;
+    position: relative;
+    background-color: #ebd184;
+}
+
+
+
+
+
+
+.p01{
+  box-shadow: 8px 15px #11071c;
+ }
+ .p02{
+  box-shadow: 8px 15px #280606;
+ }
+ .p03{
+  box-shadow: 8px 15px #5b5b4a;
+ }
+ .p04{
+  box-shadow: 8px 15px #a09d7d;
+ }
+ .p05{
+  box-shadow: 8px 15px #b78869;
+ }
+.p06{
+  box-shadow: 8px 15px #3f331f;
+ }
+
+.p01,.p02,.p03,.p04,.p05,.p06{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border-width:  0px  3px  3px  0px;
+  border-style:    solid;
+  border-color: white;
+}
+
+.pt01{
+  font-family: 'Rokkitt', serif;
+  font-size: 1.8em;
+  color: black;
+  border-width:  0px  0px  9px  0px;
+  border-style:    solid;
+  border-color:  #ebd184;
+   margin-left: 5vw;
+  margin-right: 5vw;
+  width: 80%;
+}
+.pt01:hover{
+  font-family: 'Rokkitt', serif;
+  font-size: 1.8em;
+  color:  #ebd184;
+  border-width:  0px  0px  9px  0px;
+  border-style:    solid;
+  border-color: #11071c;
+   margin-left: 3vw;
+  margin-right: 3vw;
+  width: 90%;
+
+}
+.pt001,.pt002,.pt003,.pt004,.pt005,.pt006{
+  font-family: 'Rokkitt', serif;
+  font-size: 1.4em;
+  color: black;
+  margin-top: 4vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 4vh;
+  text-align: left;
+}
+
+
+.processtext{
+	  font-family: 'Rokkitt', serif;
+  font-size: 1.3em;
+  color: black;
+  margin-top: 4vh;
+ 
+  margin-bottom: 4vh;
+  text-align: left;
+}
+
+.box0, .box1,.box2{
+ 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+.process1{
+	  font-family: 'Rokkitt', serif;
+  
+  color: black;
+  margin-top: 4vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 4vh;
+  text-align: left;
+ 
+}
+
+.imageover1{
+	margin-top: 0vh; 
+  margin-left: 0vw;
+  right: 0;
+  top: 0;
+  width: 100%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+
+
+
+.imageover2{
+	margin-top: -2vh; 
+  margin-left: 2vw;
+  right: 0;
+  top: 0;
+  width: 30%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover3{
+	margin-top: -8vh; 
+  margin-left: 35vw;
+  right: 0;
+  top: 0;
+  width: 50%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover4{
+	margin-top: -18vh; 
+  margin-left: 2vw;
+  right: 0;
+  top: 0;
+  width: 40%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover5{
+	margin-top: 0vh; 
+  margin-left: 5vw;
+  right: 0;
+  top: 0;
+  width: 30%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+
+
+.imageover6{
+ margin-top: -25vh; 
+  margin-left: 37vw;
+  right: 0;
+  top: 0;
+  width: 30%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+
+.box0,.box1,.box2{
+	border: 15px 15px  black;
+	margin-bottom: 10vh;
+	border-style: dashed;
+
+
+}
+
+  .stitle{
+        font-family: 'New Tegomin', serif;
+       color: #ebd184;
+       font-size:1.2em;
+       text-align: center;
+       margin-bottom: 2vh;
+     }
+}
+.imageover11{
+	margin-top: 0vh; 
+  margin-left: 2vw;
+  right: 0;
+  top: 0;
+  width: 80%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover12{
+	margin-top: 0vh; 
+  margin-left: 2vw;
+  right: 0;
+  top: 0;
+  width: 80%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover13{
+	margin-top: -0vh; 
+  margin-left: 2vw;
+  right: 0;
+  top: 0;
+  width: 80%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover14{
+	margin-top: 0vh; 
+  margin-left: 00vw;
+  right: 0;
+  top: 0;
+  width: 80%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+.imageover15{
+	margin-top: 0vh; 
+  margin-left: 6vw;
+  padding-bottom: 2vh;
+  right: 0;
+  top: 0;
+  width: 80%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+
+
+.imageover16{
+ margin-top: 0vh; 
+  margin-left: 2vw;
+  padding-bottom: 2vh;
+  right: 0;
+  top: 0;
+  width: 70%; // this is an arbitrary width, depends on the design
+  z-index: -1;
+}
+
+.box1{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  grid-template-areas: 
+  "imageover07 imageover08"
+  "imageover09 imageover10"
+  "imageover11 imageover12"
+  ;
+
+}
+
+
+
+.footertext{
+	font-family: 'New Tegomin', serif;
+  font-size: 1.6em;
+  color: black;
+  margin-top: 4vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 14vh;
+  text-align: left;
+
+
+}
+
+
+.footertext:hover{
+  font-family: 'New Tegomin', serif;
+  	
+
+    color: white;
+    position: relative;
+    background-color: #ebd184;
+ 
+  transform: rotate(-10deg);
+}
+
+.video1,.video2,.video3{
+	margin:0px;
+}
+
+
+
+
+
+}
+
+
+/* cell phone cell phone cell phone cell phone cell phone cell phone cell phone cell phone cell phone  */
+
+
+@media (min-width: 768px) {
+
+.page{
+  margin-left: 205px;
+
+}
+.home{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.title{
+      font-family: 'New Tegomin', serif;
+       color: #ebd184;
+       font-size:3em;
+       text-align: center;
+       margin-bottom: 15vh;
+       margin-top: 5vh;
+      
+}
+.title:hover {
+    font-size: 3em;
+    color: white;
+    position: relative;
+    background-color: #ebd184;
+      margin-right: 1vw;
+       margin-left: 1vw;
+
+}
+.mockup0{
+background-color: none;
+}
+.mockup{
+  width: 100%;
+  padding-left: 7vw;
+ padding-right: 7vw;
+
+}
+
+.p01,.p03,.p05{/*photo size */
+  width: 100%;
+  margin-left: 5vw;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.p02,.p04,.p06{/*photo size */
+  width: 100%;
+  margin-right: 5vw;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+
+
+
+.pt001,.pt003,.pt005{
+  font-family: 'Rokkitt', serif;
+  font-size: 1.4em;
+  color: black;
+  text-align: left;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.pt002,.pt004,.pt006{
+  font-family: 'Rokkitt', serif;
+  font-size: 1.4em;
+  color: black;
+  text-align: left;
+  margin-left: 5vw;
+  margin-right: 1vw;
+}
+.pt01{
+  font-family: 'Rokkitt', serif;
+  font-size: 1.8em;
+  color: black;
+  margin-left: 2vw;
+
+}
+
+
+.p2{
+  width: 100;
+  margin-left:0vw;
+}
+.p1{
+     margin-left:0vw;
+  margin-right: 0vw;
+  width: 100%;
+}
+
+
+
+
+.p1{
+  grid-area: p1;
+}
+.p2{
+  grid-area: p2;
+}
+.p3{
+  grid-area: p3;
+}
+.p4{
+  grid-area: p4;
+}
+.p5{
+  grid-area: p5;
+}
+.p6{
+  grid-area: p6;
+}
+.project2{
+  grid-area:project2;
+}
+.p10{
+    grid-area:p10;
+}
+.p11{
+  grid-area: p11;
+}
+.p12{
+  grid-area: p12;
+}
+.p20{
+  grid-area: p20;
+}
+.p21{
+  grid-area: p21;
+}
+.p22{
+  grid-area: p22;
+}
+
+.p30{
+  grid-area: p30;
+}
+.p31{
+  grid-area: p31;
+}
+.p32{
+  grid-area: p32;
+}
+.p40{
+  grid-area: p40;
+}
+.p41{
+  grid-area: p41;
+}
+.p42{
+  grid-area: p42;
+}
+
+.p50{
+  grid-area: p50;
+}
+.p51{
+  grid-area: p51;
+}
+.p52{
+  grid-area: p52;
+}
+.p60{
+  grid-area: p60;
+}
+.p61{
+  grid-area: p61;
+}
+.p62{
+  grid-area: p62;
+}
+.p10{
+   grid-area:p10;
+}
+
+.p1{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p11 p11 p11"
+  "p10 p12 p12"
+  ;
+
+}
+.p10:
+{
+  display: none;
+}
+
+.p2{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p21 p21 p21"
+  "p22 p22 p20";
+}
+
+.p3{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p31 p31 p31"
+  "p30 p32 p32 ";
+}
+
+
+.p4{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p41 p41 p41"
+  "p42 p42 p40";
+}
+
+
+.p5{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p51 p51 p51"
+  "p50 p52 p52 ";
+}
+
+
+
+.p6{/* 完成 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p61 p61 p61"
+  "p62 p62 p60";
+}
+
+
+
+
+
+
+
+
+.me{
+  display: none;
+}
+
+
+
+}
+
+
+/* tabelt  phone tabelt  phone tabelt  phone tabelt  phone tabelt  phone tabelt  phone tabelt  phone  */
+
+@media (min-width: 768px) {
+.page{
+  margin-left: 205px;
+
+}
+
+  .title{
+        font-family: 'New Tegomin', serif;
+       color: black;
+       font-size:3em;
+       text-align: center;
+       margin-bottom: 5vh;
+     }
+
+
+
+.project2{
+    display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  column-gap: 0px;
+  grid-template-areas: 
+  "p1 p2 "
+  "p3 p4 "
+"p5 p6 "
+
+
+  ;
+
+}
+
+.p1{
+   grid-area:p1;
+}
+
+.p2{
+   grid-area:p12;
+}
+.p3{
+   grid-area:p3;
+}
+.p4{
+   grid-area:p4;
+}
+.p5{
+   grid-area:p5;
+}
+.p6{
+   grid-area:p6;
+}
+.project2{
+   grid-area:project2;
+}
+}
+
+
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
+
+
+
+

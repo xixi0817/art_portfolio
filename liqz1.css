@@ -1,0 +1,1172 @@
+
+
+/*  top navigation OPEN- code from w3school */
+.topnav {
+  overflow: hidden;
+  background-color: #513c20;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.topnav a:hover {
+  background-color: #513c20;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #513c20;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+/*******(这里以上请不随意修改）*************************************************************top navigation END */
+
+
+html, body {
+  	margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;/* Hide scrollbars */
+    font-size: 12px;
+   
+}
+
+
+.wrapper{
+	width: 100%;
+	background-color: white;/* 怎么没用啊？#e3bd8d */
+}
+.container0{/* 这是第一圆形头像 */
+	width: 100%;
+	height: 70%; 
+	background-color: #c09351;
+	position: relative;
+	border-style: none none solid;
+	border-color: #513c20;
+	border-width: 6.5em;
+}
+
+
+
+.box00,.box000{/* 这是第一部文字  */
+	font-size: 3.3em;
+	position: relative;
+	margin: auto ;
+	padding-top: 7vh;
+	text-align: center;
+}
+
+
+img {
+	padding-top: 10%;
+	text-align: center;
+	width: 70%;
+	height: 70%;
+}
+.photo0{
+	text-align: center;
+}
+
+
+
+.p0-1{
+	font-family: 'Ma Shan Zheng', cursive; 
+	font-size: 1.3em;
+}
+
+.p0-2{
+	font-family: 'Ma Shan Zheng', cursive; 
+	font-size: 0.8em;
+}
+
+.p0-3{
+	font-family: 'Noto Serif', serif; 
+	font-size: 1.3em;
+}
+.p0-4{
+	font-family: 'Noto Serif', serif; 
+	font-size: 0.8em;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+/*-- header over header over header over header over header over 以上比较固定不要随意改变- 整理过了 不要随意修改->*/
+
+
+.container2, .container3, .container4, .container5, {
+	width: 100%;
+	
+	background-color: f7f4ed;
+}
+/*-- -->*/
+
+.container{
+	background-color: none;
+	/*vw：view width， vh： view height。白的颜色区域*/
+	padding-top: 5vw; 
+	border-stylesolid none solid;
+	border-color: #513c20;
+	border-width: vh;
+	padding-bottom: 3vw; 
+	
+}
+
+.intro{
+	margin-right:5vw;
+	margin-left:5vw;
+	text-align: left;
+	
+	font-family: 'PT Serif', serif;
+	font-size: 1.8em; 
+}
+
+/*-- introduction over-------------------------------------------->*/
+
+.poem1 {
+  position: relative;
+  background-color: #e9ddb6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  padding: 1em;
+  margin: 2vh;
+}
+
+.p_title {
+  color: white;
+  background-color: #513c20;
+  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 2em;
+  padding: 1em;
+  
+}
+
+.p_detail {
+  background-color: #e9ddb6;
+  
+  margin: 0;
+  width: 100%;
+}
+
+.p_photo1{
+
+}
+
+.ptext{
+	font-family: 'PT Serif', serif;
+	font-size: 1.5em; 
+	padding-left: 8vw;
+	text-align: left;
+}
+.poem2 {
+  position: relative;
+  background-color: #e9ddb6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  padding: 1em;
+  margin: 2vh;
+}
+
+.poem3 {
+  position: relative;
+  background-color: #e9ddb6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  padding: 1em;
+  margin: 2vh;
+}
+
+
+/*-- 书画部分结束---------------------------------->*/
+
+/*-- Who IS LI QingZhao -->*/
+
+.subtitle,.subtitle2,.subtitle3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 5em; 
+	text-align: center;
+	padding-top: 5vh; 
+	padding-bottom: 5vh;
+	background-color: #513c20;
+	color: white;
+	text-shadow: 2px 2px #000000;
+	margin-top: 1em;
+
+}
+
+.container2{
+	padding-bottom: 7vh;
+
+}
+.date{
+	font-family: 'Niconne', cursive;
+	font-size: 2.5em; 
+	text-align: left;
+	padding-top: 5vh; 
+	padding-bottom: 3vh; 
+	margin-right:5vw;
+	margin-left:5vw;
+	text-shadow: 2px 2px #ffffff;
+	box-shadow: 10px 10px #cf7543;
+	font-weight: bold;
+}
+
+.sub1t-1, .sub1t-2, .sub1t-3, .sub2t-1,.sub3t-1, .sub4t-1,.sub5t-1, .subfinal1,.subfinal2,.subfinal3{
+	font-family: 'Noto Serif', serif; 
+	font-size: 1.5em; 
+	text-align: left;
+	padding-top: 4vh; 
+	padding-bottom: 0vh;
+	margin-right:5vw;
+	margin-left:5vw;
+}
+
+.p_photo4, .p_photo5{
+	text-align: left;
+	padding-top: 4vh; 
+	padding-bottom: 0vh;
+	margin-right:5vw;
+	margin-left:5vw;
+}
+
+/*-- 大段文字结束 -->*/
+
+ .subtitle3{
+ 	margin-bottom: 5vh;
+}
+ }
+ .heng:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 70%; /* Change this to whatever width you want. */
+    margin-top: 2em; /* This creates some space between the element and the border. */
+    border-bottom: 0.5em solid #cf7543; 
+    margin-bottom: em;/* This creates the border. Replace black with whatever color you want. */
+}
+ .heng1:before {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 70%; /* Change this to whatever width you want. */
+    margin-top: 0em; /* This creates some space between the element and the border. */
+    border-bottom: 0.5em solid #cf7543; 
+    margin-bottom: 2em;/* This creates the border. Replace black with whatever color you want. */
+}
+      
+/*--w下面有横杆-->*/
+.around01,.around02, .around03{
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 1.8em;
+	line-height: 4vh;
+}
+
+.around1, .around2, .around3{
+	margin-right:5vw;
+	margin-left:5vw;
+	margin-bottom: 5vh;
+	border-radius: 39px;
+	padding: 0vh;
+	background-color: #e9ddb6;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+
+
+.footer{
+	
+	background-color: #513c20;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	text-align: left;
+	padding-top: 1vw;
+	padding-bottom:1vw;
+	
+   
+}
+
+.footers{
+	font-size: 2em; 
+	padding-left: 5vw;
+	padding-bottom:0vw;
+
+}
+.text-main{
+	padding-left: 5vw;
+	font-size: 1.3em; 
+}
+
+.subfinal01, .subfinal02, .subfinal03{
+  color: black;
+  background-color: ;
+  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: ;
+  font-size: 1.5em;
+  padding: 1em;
+ }
+
+
+/*-- footer over -->*/
+
+
+/*
+font-family: 'Liu Jian Mao Cao', cursive;
+font-family: 'Long Cang', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Zhi Mang Xing', cursive;
+font-family: 'Abril Fatface', cursive; sb question title
+font-family: 'Noto Serif', serif;     text
+font-family: 'PT Serif', serif;      yi ban subtitle-beginign 
+font-family: 'Redressed', cursive;   logo
+font-family: 'Zhi Mang Xing', cursive;
+font-family: 'Liu Jian Mao Cao', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Niconne', cursive;
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  For portrait layouts only 
+}
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  For landscape layouts only 
+}
+
+@media {  @supports (display: grid) {
+  @media (min-width: 0em) {
+	 one for cellphone这个可以直接把手机版本的改成就一个colu
+	 比如说一个box 在手机没有出现，ipad 有 怎么处理.
+}*/
+
+/*-- 这里是改变队形需要的名字，这样好指挥。-->*/
+
+.container0{
+	grid-area: container0;
+}
+.box0{
+	grid-area: box0;
+}
+.box00{
+	grid-area: box00;
+}
+.photo0{
+	grid-area: photo0;
+}
+.box002{
+	grid-area: box00;
+}
+.container{
+	grid-area: container;
+}
+
+.container1{
+	grid-area: container1;
+}
+.poem1{
+	grid-area: poem1;
+}
+.p_title{
+	grid-area: p_title;
+}
+.p_detail{
+	grid-area: p_detail;
+}
+.p_photo1{
+	grid-area: p_photo1;
+}
+.p_text{
+	grid-area: p_text;
+}
+.poem2{
+	grid-area: poem2;
+}
+.container2{
+	grid-area: container2;
+}
+.stitle1{
+	grid-area: stitle1;
+}
+
+.sub1t-1{
+	grid-area: sub1t-1;
+}
+
+.sub1t-2{
+	grid-area: sub1t-2;
+}
+
+.photo1{
+	grid-area: photo1;
+}
+.sub2t-1{
+	grid-area: sub2t-1;
+}
+
+.p_photo4{
+	grid-area: p_photo4;
+}
+
+.photo2{
+	grid-area: photo2;
+}
+.sub3t-1{
+	grid-area: sub3t-1;
+}
+
+.sub3t-2{
+	grid-area: sub3t-2;
+}
+.sub4t-1{
+	grid-area: sub4t-1;
+}
+.sub4t-1{
+	grid-area: sub4t-1;
+}
+.sub5t-1{
+	grid-area: sub5t-1;
+}
+
+.p_photo5{
+	grid-area: p_photo5;
+}
+.stitle5{
+	grid-area: stitle5;
+}
+.poem1{
+	grid-area: poem1;
+}
+.poem2{
+	grid-area: poem2;
+}
+.poem3{
+	grid-area: poem3;
+}
+.section1{
+	grid-area: section1;
+}
+.photo0{
+	grid-area: photo0;
+}
+
+.box00{
+	grid-area: box00;
+}
+
+.box000{
+	grid-area: box000;
+}
+
+.spangroup3{
+	grid-area: spangroup3;
+}
+
+.stitle2{
+	grid-area: stitle2;
+}
+.container3{
+	grid-area: container3;
+}
+
+  @media screen and (min-width: 40em) {/* For portrait layouts only 可以自由的 */
+ .wrapper{
+	width: 100%;
+	background-color: #f9f4dc;/* #e3bd8d   #f9f1db#f2e6ce*/
+
+}
+
+.container1 {/* 完成 */
+	display: grid;
+	grid-template-columns: 1fr;
+	column-gap: 2px;
+	grid-template-areas: 
+	"poem1"
+	"poem2"
+	"poem3" ;
+}
+
+.poem1{/* 完成 */
+	display: grid;
+	grid-template-columns: 1fr ;
+	column-gap:2px;
+	grid-template-areas: 
+	"p_title"
+	"p_detail" ;
+}
+
+.p_detail{/* 完成 */
+	display: grid;
+	grid-template-columns: 2fr 3fr  ;
+	column-gap:0 px;
+	grid-template-areas: 
+	"p_photo1 p_text";
+	
+}
+.p_text{/* 完成 */
+	text-align: center;
+	margin: auto;
+	font-size: 1.2em;
+
+}
+.p_photo1,.p_photo2, .p_photo3 {/* 完成 */
+	text-align: center;
+	margin: auto;
+	margin-top: 1vw;
+}
+/* 完成 这里是图画这一部分结束了 ————————————————————————————————————————————————————————————*/
+.section1{
+	display: grid;
+	grid-template-columns:  1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"stitle1"
+	"sub1t-1"
+	"container2"
+	;
+}
+.container2 {/* 完成 */
+	display: grid;
+	grid-template-columns:  1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"sub1t-2 sub1t-3";
+}
+.sub1t-1{
+	margin-bottom: 2vw;
+}
+
+.stitle1{
+	font-size: 1.3em;
+
+}
+/* 以上是 出生信息完成 */
+.container3{
+	display: grid;
+	grid-template-columns:  1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"stitle2 sub2t-1"
+	"p_photo4 sub2t-1 ";
+	margin-bottom: 8vw;
+}
+
+
+
+.sub2t-1{
+	margin-right: 5vw;
+}
+ .heng1:before {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    margin-top: 0em; /* This creates some space between the element and the border. */
+    border-bottom: 0.5em solid #cf7543; 
+    margin-bottom: 2em;/* This creates the border. Replace black with whatever color you want. */
+}
+ .heng2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    margin-top: 6em; /* This creates some space between the element and the border. */
+    border-bottom: 0.5em solid #cf7543; 
+    margin-bottom: 0em;/* This creates the border. Replace black with whatever color you want. */
+}
+.drop{
+  float: left;
+  width: 1em;
+  font-size: 6em;
+ line-height: 60%;
+}
+
+/* 以上是 婚姻完成 */
+
+.container4{
+	display: grid;
+	grid-template-columns:  1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"stitle3 stitle4"
+	"sub3t-1 sub4t-1 ";
+	margin-bottom: 8vw;
+
+}
+
+.container5{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"stitle5  sub5t-1"
+	"p_photo5 sub5t-1";
+	margin-bottom: 8vw;
+
+}
+
+.container6{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal1 subfinal2";
+	margin-bottom: 8vw;
+
+}
+
+.subfinal1, .subfinal2,.subfinal3{
+	margin-right: 2vw;
+	margin-left: 2vw;
+}
+.subfinal3{
+	display:;
+}
+
+.container7{
+	display: grid;
+	grid-template-columns:1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"around1"
+	 "around2" 
+	 "around3";
+	margin-bottom: 8vw;
+}
+
+.around1{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"around01 photoh1"
+	margin-bottom: 8vw;
+}
+.around2{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"around02 photoh2"
+	margin-bottom: 8vw;
+}
+
+.around3{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"around03 photoh3"
+	margin-bottom: 8vw;
+}
+
+.photoh1,.photoh2,.photoh3{
+	margin: auto;
+}
+
+
+
+.container6{
+	display: grid;
+	grid-template-columns:  1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal1"
+	"subfinal2"
+	"subfinal3"
+	;
+}
+
+
+.subfinal1{
+	display: grid;
+	grid-template-columns:  1fr 3fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal01 subfinal001 "
+}
+.subfinal2{
+	display: grid;
+	grid-template-columns:  1fr 3fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal02 subfinal002 "
+}
+.subfinal3{
+	display: grid;
+	grid-template-columns:  1fr 3fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal03 subfinal003 "
+}
+
+.subfinal01, .subfinal02, .subfinal03{
+	
+	margin: auto;
+	font-size:1em;
+}
+.subfinal001, .subfinal002,.subfinal003{
+	margin-right: 5vw;
+}
+
+
+
+.footers{
+	margin: auto ;
+}
+.text-main{
+	margin: auto ;
+
+
+}
+
+
+
+}
+
+/*.box{
+	margin-right:2vw;
+	margin-left:vw;
+	font-family: 'PT Serif', serif;
+	background-color: ;
+	vw：view width， vh： view height。????????????????????????
+	height: 100%;
+	container1{
+	margin-right:2vw;
+	margin-top: 9vw;
+
+}*/
+
+/* 以上是ipad版本结束——-------------------————————————————d */
+
+
+  @media screen and (min-width: 64em) {/* For portrait layouts only 可以自由的 */
+ .wrapper{
+	width: 100%;
+	background-color: #f2e6ce;/* #e3bd8d #e9ddb6#f8e8c1*/
+}
+
+img {
+	padding-top: 10%;
+	
+	width: 40%;
+	height: auto;
+	
+}
+
+.container0{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"photo0 box00"
+	
+	margin-bottom: 5vw;
+}
+
+.photo0{
+	text-align: left;
+	margin-left: 5vw;
+	margin-bottom: 5vw;
+}
+
+.box00{
+	text-align: center;
+	font-size: 3.5em;
+	margin-right: 3vw;
+	width: 50%;
+	height: auto;
+}
+
+ .heng:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 70%; /* Change this to whatever width you want. */
+    margin-top: 2em; /* This creates some space between the element and the border. */
+    border-bottom: 0.5em solid #cf7543; 
+    margin-bottom: em;/* This creates the border. Replace black with whatever color you want. */
+}
+/*特别难搞也不算特别成功 */
+.container{
+	font-weight: bold;
+
+}
+
+.container1 {/* 完成 */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 2px;
+	grid-template-areas: 
+	"poem1 poem2 poem3" ;
+}
+
+.poem1{/* 完成 */
+	display: grid;
+	grid-template-columns: 1fr ;
+	column-gap:2px;
+	grid-template-areas: 
+	"p_title"
+	"p_detail" ;
+}
+
+.p_detail{/* 完成 */
+	display: grid;
+	grid-template-columns: 1fr  ;
+	column-gap:0 px;
+	grid-template-areas: 
+	"p_photo1"
+	"p_text";
+	
+}
+.ptext.p_text{/* 完成 */
+	
+	margin-left:1vw;
+	font-size: 1.2em;
+
+}
+.ptext{
+	text-align: left;
+	margin-left:1vw;
+	padding-left: 0vw;
+
+}
+.p_photo1,.p_photo2, .p_photo3 {/* 完成 */
+	text-align: center;
+	margin: auto;
+	margin-top: 1vw;
+}
+
+.box1{
+	margin-bottom: 4vw;
+}
+/* 完成 这里是图画这一部分结束了 —————————————————*/
+
+.container3{
+	display: grid;
+	grid-template-columns:  1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"stitle2 stitle2"
+	"p_photo4 sub2t-1";
+	margin-bottom: 8vw;
+}
+.p_photo4{
+	width: 70%;
+	height: 70%;
+	height: auto;
+	margin-top: 0vw;
+	padding-top: 0vw;
+
+}
+
+.sub2t-1 {
+	padding-top: 5vw;
+	margin-left: 0vw;
+
+}
+
+
+
+.container5{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"stitle5 stitle5  "
+	"p_photo5 sub5t-1";
+	margin-bottom: 8vw;
+
+}
+.p_photo5{
+	width: 77%;
+
+	height: auto;
+	margin-top: 0vw;
+	padding-top: 0vw;
+
+}
+
+.sub5t-1 {
+	padding-top: 5vw;
+	margin-left: 0vw;
+
+}
+
+.container6{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal1 subfinal2 subfinal3";
+	margin-bottom: 8vw;
+
+}
+
+
+.container7{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"around1  around2 around3";
+	margin-bottom: 8vw;
+}
+
+.around1{
+	display: grid;
+	grid-template-columns:1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"around01" 
+	"photoh1"
+	margin-bottom: 8vw;
+}
+.around2{
+	display: grid;
+	grid-template-columns:1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"around02" "photoh2"
+	margin-bottom: 8vw;
+}
+
+.around3{
+	display: grid;
+	grid-template-columns:1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"around03" "photoh3"
+	margin-bottom: 8vw;
+}
+
+
+.photoh1{
+	margin-top: 0vw;
+	margin-bottom: 0vw;
+}
+
+.around01{
+	margin-top: 0vw;
+	padding-top: 0vw;
+}
+
+.subfinal01, .subfinal02, .subfinal03{
+  color: black;
+  background-color: ;
+  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: ;
+  font-size: 1.5em;
+  padding: 1em;
+ }
+
+
+.container6{
+	display: grid;
+	grid-template-columns:  1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal1"
+	"subfinal2"
+	"subfinal3"
+	;
+}
+
+
+.subfinal1{
+	display: grid;
+	grid-template-columns:  1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal01" 
+	"subfinal001 ";
+
+}
+
+.subfinal01{
+	text-align: center;
+	margin:auto;
+}
+
+
+
+ .hengf:before {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    margin-top: 3vh; /* This creates some space between the element and the border. */
+    border-bottom: 0.2em solid #cf7543; 
+    /* This creates the border. Replace black with whatever color you want. */
+   
+}
+
+.subfinal2{
+	display: grid;
+	grid-template-columns:  1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal02"
+	"subfinal002 ";
+}
+
+
+.subfinal3{
+	display: grid;
+	grid-template-columns:  1fr ;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal03"
+	"subfinal003 ";
+}
+
+
+.final00{
+		display: grid;
+	grid-template-columns:  1fr 1fr;
+	column-gap: px;
+	grid-template-areas: 
+	"subfinal2  subfinal3 ";
+}
+
+
+
+.footers{
+	margin: auto ;
+}
+.text-main{margin: auto ;
+
+
+}
+
+
+
+
+}
+/* 以上是
+.sub1t-1{
+	margin-bottom: 2vw;
+}
+
+.stitle1{
+	font-size: 1.3em;
+
+} 出生信息完成 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container2{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	column-gap: 2px;
+	
+	grid-template-areas: 
+	" photo1 sub1t-1 sub1t-1" 
+	"sub1t-2 sub1t-2 sub1t-2"
+	;
+}
+
+.container3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2px;
+	
+	grid-template-areas: 
+	" sub2t-1 photo2  " 
+
+	
+	;
+}
+
+.container4{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: px;
+	
+	grid-template-areas: 
+	" sub3t-1 sub3t-1 photo3" 
+	"sub3t-3 sub3t-3 sub3t-3"
+	"sub3t-2 sub3t-2 sub3t-2";
+}
+
+
+.container5{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: px;
+	
+	grid-template-areas: 
+	" photoh1 photoh2 photoh3" 
+	
+	;
+}
+
+.container1{
+	margin-top: 9vw;
+	margin-right:2vw;
+	margin-left:1vw;
+}
+
+
+.sub2t-2{
+
+	display: none;
+}
+
+.ptext{
+	font-family: 'PT Serif', serif;
+	font-size: 1.5em; 
+	padding-left: 1vw;
+	text-align: left;
+}
+*/
