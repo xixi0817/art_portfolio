@@ -195,3 +195,12 @@ body {
     transform: rotateX(25deg) translateZ(-2500px);
   }
 }
+/* Fix: scale the crawl text to the screen so it is not cut off */
+.star-wars { overflow: hidden; }
+@media (max-width: 767px) {
+  .star-wars { font-size: 230%; letter-spacing: 2px; }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .star-wars { font-size: 360%; letter-spacing: 4px; }
+}
+body { margin: 0; }

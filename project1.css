@@ -10,7 +10,7 @@ width: 100%;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar-fixed-side {
     margin-left: -15px;
     margin-right: -15px;
@@ -241,7 +241,7 @@ font-family: 'Cinzel', serif;
   font-family: 'Saira Stencil One', cursive;  name
   font-family: 'Noto Sans', sans-serif; text
 */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .title{
         font-family: 'New Tegomin', serif;
@@ -1063,3 +1063,9 @@ p.four{
 
 
 }
+/* Fix: keep the page column inside the screen next to the 205px side menu */
+@media (min-width: 768px) {
+  .page { max-width: calc(100vw - 225px); }
+}
+/* Fix: keep the moving figures from pushing the page wider than the screen */
+.page { overflow-x: hidden; }

@@ -24,7 +24,7 @@ html, body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar-fixed-side {
     margin-left: -15px;
     margin-right: -15px;
@@ -254,7 +254,7 @@ font-family: 'Cinzel', serif;
   font-family: 'Press Start 2P', cursive;
   font-family: 'Saira Stencil One', cursive;  name
 */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 
 .nav .row,.navbar-header{
@@ -1443,4 +1443,12 @@ grid-area: homedraw;
 }
 
 
+}
+
+/* Fix: keep the page column inside the screen next to the 205px side menu */
+@media (min-width: 768px) {
+  .page { max-width: calc(100vw - 225px); }
+}
+@media (max-width: 767px) {
+  .page { overflow-x: hidden; }
 }
